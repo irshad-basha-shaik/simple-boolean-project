@@ -4,12 +4,12 @@
 
 <h2>HTML radio </h2>
 
-<form method="POST" class="post-form">{% csrf_token %}
+<form method="POST" class="post-form" >{% csrf_token %}
         {{ form.as_p }}
         <button type="submit" class="save btn btn-default">Save</button>
     </form>
 
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/index".</p>
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
 
 </body>
 </html>

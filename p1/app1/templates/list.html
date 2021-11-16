@@ -10,15 +10,80 @@
           <tr>
               <th>Id</th>
             <th>Name</th>
-            <th>Fruits</th>
-              <th>Edit</th>
+            <th>location </th>
+            <th>asset_no </th>
+            <th>emp_id </th>
+            <th>usage_type </th>
+            <th>machine_type </th>
+            <th>gef_id_number </th>
+            <th>domain_workgoup </th>
+            <th>make1 </th>
+            <th>machine_model_no </th>
+            <th>serial_no1 </th>
+            <th>hdd </th>
+            <th>make2 </th>
+            <th>model </th>
+            <th>serial_no2 </th>
+            <th>ram </th>
+            <th>processor_purchase_date </th>
+            <th>warranty_end_date </th>
+            <th>amc_start_date </th>
+            <th>amc_end_date </th>
+            <th>os_version</th>
+            <th>os</th>
+            <th>ms_office_version</th>
+            <th>oem</th>
+            <th>antivirus</th>
+            <th>autocad</th>
+            <th>adobe_acrobate</th>
+            <th>visio</th>
+            <th>access</th>
+            <th>sap</th>
+            <th>status</th>
+            <th>remarks</th>
+            <th>user_acceptance_date</th>
+            <th>user_handed_over_date</th>
+
           </tr>
             {% for i in list %}
           <tr>
 
             <td>{{i.id}}</td>
             <td>{{i.username}}</td>
-            <td>{{i.fruit}}</td>
+            <td>{{i.location }}</td>
+            <td>{{i.asset_no }}</td>
+            <td>{{i.emp_id }}</td>
+            <td>{{i.usage_type }}</td>
+            <td>{{i.machine_type }}</td>
+            <td>{{i.gef_id_number }}</td>
+            <td>{{i.domain_workgoup }}</td>
+            <td>{{i.make1 }}</td>
+            <td>{{i.machine_model_no }}</td>
+            <td>{{i.serial_no1 }}</td>
+            <td>{{i.hdd }}</td>
+            <td>{{i.make2 }}</td>
+            <td>{{i.model }}</td>
+            <td>{{i.serial_no2 }}</td>
+            <td>{{i.ram }}</td>
+            <td>{{i.processor_purchase_date }}</td>
+            <td>{{i.warranty_end_date }}</td>
+            <td>{{i.amc_start_date }}</td>
+            <td>{{i.amc_end_date }}</td>
+            <td>{{i.os_version}}</td>
+            <td>{{i.os}}</td>
+            <td>{{i.ms_office_version}}</td>
+            <td>{{i.oem}}</td>
+            <td>{{i.antivirus}}</td>
+            <td>{{i.autocad}}</td>
+            <td>{{i.adobe_acrobate}}</td>
+            <td>{{i.visio}}</td>
+            <td>{{i.access}}</td>
+            <td>{{i.sap}}</td>
+            <td>{{i.status}}</td>
+            <td>{{i.remarks}}</td>
+            <td>{{i.user_acceptance_date}}</td>
+            <td>{{i.user_handed_over_date}}</td>
+
               <td><button class="btn btn-default"><a href="edit?id={{i.id}}">Edit</a></button></td>
 
 
